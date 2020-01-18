@@ -1,4 +1,4 @@
-<%@ page import="java.util.List, ca.sheridancollege.beans.Product" %>
+<%@ page import="java.util.List, ca.sheridancollege.beans.Product"; %>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
