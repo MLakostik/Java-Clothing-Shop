@@ -12,8 +12,10 @@ import javax.servlet.http.HttpServletResponse;
 
 
 import ca.sheridancollege.beans.Product;
+/*
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
+
 
 /**
  * Servlet implementation class Cart
@@ -39,7 +41,7 @@ public class Cart extends HttpServlet {
 		// Michael Lakostik | 991515743
 		// isEmpty is a boolean to make sure an item is selected before user is taken to the ViewCart Servet
 		if(isEmpty == false) {
-			request.getRequestDispatcher("ViewCart.jsp").forward(request, response);
+			request.getRequestDispatcher("/ViewCart.jsp").forward(request, response);
 		}
 		
 	}
